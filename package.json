@@ -2,8 +2,12 @@
   "name": "ponisha_new_positions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node ./dist/main.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
